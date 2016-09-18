@@ -11,51 +11,82 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{你的大名}
+\name{樊一麟}
 
-% {E-mail}{mobilephone}{homepage}
+% {cs\_fyl@buaa.edu.cn}{13716159948}
 % be careful of _ in emaill address
-\contactInfo{my\_address@yuanbin.me}{(+86) 131-221-87xxx}{http://www.yuanbin.me}
+\contactInfo{cs\_fyl@buaa.edu.cn}{(+86) 137-161-59948}{}
 % {E-mail}{mobilephone}
 % keep the last empty braces!
 %\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
  
-\section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{上海交通大学}, 上海}{2013 -- 至今}
-\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
-\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
-\textit{学士}\ 通信工程
-
-\section{\faUsers\ 实习/项目经历}
-\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
-\role{实习}{经理: 高富帅}
-xxx后端开发
+\section{\faGraduationCap\  核心课程成绩}
 \begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
+\item 核心理论课程\\
+  操作系统 98,
+  计算机组成原理 97,
+  数据结构与算法 92,
+  编译技术 92,
+  计算机网络 92,
+  数据库原理 91
+  \item 实践类课程\\
+计算机组成实验 100,
+操作系统课程设计 97,
+网络实验 94,
+面向对象建模 94,
+编译实验 90
+\item 数学类课程\\
+概率统计 100,
+数学分析(一,二) 91,99,
+离散数学(一,二,三) 88, 91, 92,
+数学建模 90,
+高等代数 89
 \end{itemize}
 
-\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
-\role{Golang, Linux}{个人项目，和富帅糕合作开发}
+
+\section{\faUsers\ 课外学习}
+\datedsubsection{\textbf{MIT 6.828课程} }{2015年5月 -- 2015年7月}
+\role{课程实践}{自学}
+学习了MIT 6.828的操作系统理论知识，并在JOS---由MIT开发的基于X86的教学操作系统上---
+\begin{itemize}
+  \item 
+	完成课程所有相关实验
+  \item 改进完善了JOS中的简易shell
+  \item 项目上传至 https://github.com/deadlock-f10/JOS
+\end{itemize}
+
+%\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2014 年5月 -- 至今}
+%\role{\LaTeX, Python}{个人项目}
 \begin{onehalfspacing}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
-\begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
-\end{itemize}
-\end{onehalfspacing}
+%优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+%\begin{itemize}
+%  \item 容易定制和扩展
+%  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
+%   \item 支持 FontAwesome 4.5.0
+%\end{itemize}
+%
+%\datedsubsection{\textbf{自学}}{2016年7月}
+%\textit{Graph isomorphism in quasipolynomial time}
 
-\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
-\role{\LaTeX, Python}{个人项目}
-\begin{onehalfspacing}
-优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+
+\datedsubsection{\textbf{上海交大ACM班暑期课程}}{2016年7月}
+主要完成了以下三门课程的学习：
 \begin{itemize}
-  \item 容易定制和扩展
-  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
-  \item 支持 FontAwesome 4.5.0
+  \item 《概率与计算》　尹一通，南京大学
+  \item 《近似算法》　贝小辉，新加坡南洋理工大学
+  \item 《密码学》　石润婷，康奈尔大学
 \end{itemize}
+
+\datedsubsection{\textbf{数据结构复杂性下界论文研读}}{2016年7月 -- 至今}
+\role{论文学习}{指导教授：尹一通，南京大学}
+研读了数据结构复杂性的经典和前沿论文，其中包括静态和动态数据结构下界中的经典工具：
+\begin{itemize}
+  \item 丰富性引理（richness lemma）
+  \item 回合消去引理（round elimination lemma）
+  \item 数码(chronogram)技术
+\end{itemize}
+并撰写了关于这几项技术的综述报告
+
 \end{onehalfspacing}
 
 % Reference Test
@@ -65,24 +96,21 @@ xxx后端开发
 %  \item main contribution
 %\end{itemize}
 
+\section{\faHeart\ 特别兴趣}
+理论计算机：近似算法，随机算法，通讯复杂性，数据结构复杂性
+
 \section{\faCogs\ IT 技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C == Python > C++ > Java
+  \item 编程语言: C > C++ == Java
   \item 平台: Linux
-  \item 开发: xxx
+  \item 其他: \LaTeX, Mathmatica
 \end{itemize}
-
-\section{\faHeartO\ 获奖情况}
-\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-\datedline{其他奖项}{2015}
 
 \section{\faInfo\ 其他}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 技术博客: http://blog.yours.me
-  \item GitHub: https://github.com/username
-  \item 语言: 英语 - 熟练(TOEFL xxx)
+  \item 语言: 英语 - 熟练(CET6 550(阅读满分))
 \end{itemize}
 
 %% Reference
